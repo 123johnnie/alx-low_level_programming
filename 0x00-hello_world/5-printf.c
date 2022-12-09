@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - prints the phrase with proper grammar,
- * but the outcome is a piece of art,
- * Return: O if axited properly, non-zero otherwise
+ * main - print a c program using printf
+ * 
+ * Return: O 
  */
 int main(void)
 {
