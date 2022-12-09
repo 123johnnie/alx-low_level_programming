@@ -1,9 +1,10 @@
 #!/bin/bash
-#include <stdio.n>
 /**
- *main - main block
- *Return: o
+ *main - Entry point
+ *
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	puts("\"programming is like building a multilingual puzzle");
