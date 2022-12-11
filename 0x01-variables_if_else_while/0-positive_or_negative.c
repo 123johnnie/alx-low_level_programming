@@ -5,7 +5,7 @@
 #include <time.h>
 
 /**
- * main - prints if the number is positive,negative or 0
+ * main - Entry
  * Return: Always 0
  */
 int main(void)
