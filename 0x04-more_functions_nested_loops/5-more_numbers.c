@@ -1,16 +1,25 @@
 #include "main.h"
 
 /**
- * _isupper -> this is a function to check uppercase alphas
- * @c: an integer paramer
- * Return: something but success
+ * more_numbers - function that prints 10 times the numbers, from 0 to 14
+ * _putchar only 3 timt
+ * Return: 0-14 10times
  */
-int _isupper(int c)
+void more_numbers(void)
 {
-	if (c >= 'A' && c <= 'Z')
-	return (1);
-	return (0);
 
-	return (c >= 65 && c <= 90);
-	return (c >= 'A' && c <= 'Z');
+int i, ro;
+
+for (ro = 0; ro <= 9; ro++)
+{
+for (i = 0; i <= 14; i++)
+{
+if (i > 9)
+
+_putchar((i / 10) + '0');
+
+_putchar((i % 10) + '0');
+}
+_putchar('\n');
+}
 }
