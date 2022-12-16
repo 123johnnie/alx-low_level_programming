@@ -6,15 +6,12 @@
  */
 int _isupper(int c)
 {
-char uppercase = 'A';
-int isupper = 0;
-for (; uppercase <= '2'; uppercase++)
-{
-if (c == uppercase)
-{
-isupper = 1;
-break;
-}
-}
-return (isupper);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
