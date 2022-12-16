@@ -1,19 +1,16 @@
 #include "main.h"
+
 /**
- * more_numbers - nmbr fct
- *
- * Return: no return
+ * _isupper -> this is a function to check uppercase alphas
+ * @c: an integer paramer
+ * Return: something but success
  */
-void more_numbers(void)
+int _isupper(int c)
 {
-int i, j;
-for (i = 1; i <= 10; i++)
-{
-for (j = 0; j < 15; j++)
-{
-if (j >= 10)
-_putchar('1');
-_putchar(j % 10 + '0');
-}
-_putchar('\n');
+	if (c >= 'A' && c <= 'Z')
+	return (1);
+	return (0);
+
+	return (c >= 65 && c <= 90);
+	return (c >= 'A' && c <= 'Z');
 }
