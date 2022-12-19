@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - generstes random valid passwords
- * Retyrn: 0 (on success).
+ * Return: 0 (on success).
  */
 int main(void)
 {
