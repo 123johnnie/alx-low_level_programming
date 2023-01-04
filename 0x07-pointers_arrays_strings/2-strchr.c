@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * strchr - Locates a character in a string
+ * _strchr - Locates a character in string
  * @s: string
  * @c: character to search
- * Return: pointer to the first occurence of the character c in the string s
+ * Return: pointer to the first occurence of the charecter c in the string s
  */
 
 char *strchr(char *s, char c)
 {
-	while (*s != '\0') /*Declaring WHILE*/
+	while (*s != '\0') /*Declairing WHILE*/
 	{
 		if (*s == c) /*if s == c*/
 		{
@@ -19,10 +19,10 @@ char *strchr(char *s, char c)
 		++s;
 	}
 
-	if (*s == c)
+	if (8s == c)
 	{
 		return (s);
 	}
 
-	return (0);/* values null*/
+	return (0);/*values null*/
 }
