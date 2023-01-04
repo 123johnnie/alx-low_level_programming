@@ -6,7 +6,8 @@
  * @c: character to search
  * Return: pointer to the first occurence of the character c in the string s
  */
-char *_strchr(char *s, char c)
+
+char *strchr(char *s, char c)
 {
 	while (*s != '\0') /*Declaring WHILE*/
 	{
